@@ -14,8 +14,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.8
+  flutter_svg:
+  flutter_credit_card: ^4.1.0
 
 dev_dependencies:
   flutter_test:
@@ -30,8 +31,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - assets/images/rani.webp
+  assets:
+    - assets/images/rani.webp
+    - assets/images/arrow.svg
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
